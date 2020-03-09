@@ -1,8 +1,10 @@
 body {
-  background-image: url(../img/bg-body.jpg);
+  /*background-image: url(../img/bg-pic2.jpg);*/
+  background-color: rgb(51, 51, 51);
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -10,7 +12,8 @@ a, a:hover {
   margin: 0 auto;
   width: 860px;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 130px;
+  position: bottom;
 }
 
 #content {
@@ -30,6 +33,11 @@ a, a:hover {
   margin-top: 30px;
   width: 490px;
   margin-left: 20px;
+}
+
+.about .img {
+  width: 153px;
+  height: 186px;
 }
 
 .about .photo-inner {
@@ -111,7 +119,7 @@ header {
   overflow: visible;
 }
 
-span.socials-text {
+.social-icons-container span.socials-text {
   position: absolute;
   right: 0px;
   color: white;
@@ -122,7 +130,7 @@ span.socials-text {
   border-radius: 70px;
 }
 
-ul.social-icons {
+.social-icons-container ul.social-icons {
   opacity: 0;
   top: -1px;
   left: -7px;
@@ -164,7 +172,7 @@ ul.social-icons {
   height: 116;
 }
 
-.tabs li>a {
+.tabs li > a {
   padding-top: 28px;
   width: 115px;
   display: inline-block;
@@ -188,7 +196,7 @@ ul.social-icons {
   color: #cf455c;
 }
 
-.tabs li>a>i {
+.tabs li > a > i {
   font-size: 45px;
   display: block;
   margin-bottom: 5px;
@@ -278,7 +286,7 @@ ul.social-icons {
   padding: 10px 10px;
   margin-bottom: 5px;
   font-size: 13px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   border-radius: 50px;
 }
@@ -292,7 +300,7 @@ ul.social-icons {
 }
 
 .extra-text {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #333;
@@ -311,17 +319,18 @@ ul.social-icons {
 
 #contact {
   overflow: hidden;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.contact-info, .contact-form {
+.contact-info,
+.contact-form {
   float: left;
   padding: 0 20px;
 }
 
 .contact-info {
   width: 250px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .contact-form {
@@ -348,7 +357,7 @@ ul.social-icons {
   line-height: 20px;
   color: #777;
   overflow: hidden;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #map {
@@ -363,7 +372,8 @@ ul.social-icons {
   width: 100%;
 }
 
-form .input, form textarea {
+form .input,
+form textarea {
   box-shadow: inset 0 5px 17px -13px #333;
   background: #fdfdfd;
   border: 1px solid #ced4da;
@@ -399,4 +409,8 @@ form label {
   border-radius: 3px;
   cursor: pointer;
   font-size: 13px;
+}
+
+.copyright {
+  color: #ced4da;
 }

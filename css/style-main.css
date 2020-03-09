@@ -24,7 +24,7 @@ i.fa.fa-share-alt-square {
   color: #fff !important;
 }
 
-ul.socialicons {
+ul.social-icons {
   opacity: 0;
   top: -1px;
   position: relative;
@@ -33,7 +33,7 @@ ul.socialicons {
   left: -7px;
 }
 
-ul.socialicons.main {
+ul.social-icons.main {
   opacity: 1;
   top: -1px;
   left: -48px;
@@ -45,14 +45,22 @@ ul.socialicons.main {
   padding: 6px 0;
 }
 
-p, ul, li, ol {
+p,
+ul,
+li,
+ol {
   padding: 0px;
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif !important;
 }
 
 .no-margin {
@@ -81,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #383838;
   font-weight: 800;
-  font-family: 'Oswald', sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
 }
 
 .left-name h2 span {
@@ -110,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #383838;
   font-weight: 400;
   font-size: 14px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .left-address li {
@@ -168,7 +176,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
   font-weight: 500;
   padding: 10px 0px 5px;
-
 }
 
 .ex-box p {
@@ -416,7 +423,6 @@ button#green-color {
   border: 0;
   width: 30px;
   height: 30px;
-
 }
 
 /* yellow color */
@@ -537,7 +543,7 @@ button#green-color {
 
 #blue .ex-box h2 {
   background: blue;
-  color: #fff
+  color: #fff;
 }
 
 #blue .ex-heading h2 {
@@ -556,7 +562,6 @@ button#green-color {
 #blue .left-name.bg-color-1 h5 {
   color: #fff;
   background-color: blue;
-
 }
 
 /* blue color */
@@ -583,7 +588,7 @@ button#green-color {
 
 #green .ex-box h2 {
   background: green;
-  color: #fff
+  color: #fff;
 }
 
 #green .ex-heading h2 {
@@ -606,10 +611,12 @@ button#green-color {
 
 /* green color */
 
-
-
 @-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -webkit-transform: translateY(0);
   }
 
@@ -623,7 +630,11 @@ button#green-color {
 }
 
 @-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -moz-transform: translateY(0);
   }
 
@@ -637,7 +648,11 @@ button#green-color {
 }
 
 @-o-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -o-transform: translateY(0);
   }
 
@@ -651,7 +666,11 @@ button#green-color {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
 
@@ -674,8 +693,8 @@ button#green-color {
 .form-control {
   display: block;
   width: 100%;
-  height: calc(1.5em + .75rem + 2px);
-  padding: .375rem .75rem;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -683,8 +702,8 @@ button#green-color {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: .25rem;
-  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .form-group {
@@ -705,8 +724,8 @@ button#green-color {
   font-weight: 600;
 }
 
-.form-control:focus+.form-control-placeholder,
-.form-control:valid+.form-control-placeholder {
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
   font-size: 75%;
   transform: translate3d(0, -100%, 0);
   opacity: 1;
@@ -714,7 +733,7 @@ button#green-color {
 
 .form-control:focus {
   border-color: #cf455c;
-  box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25);
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
 }
 
 .col-md-6.no-padding.bg-color-left {
